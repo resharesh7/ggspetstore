@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GG's Pet Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-overlay">
+      <h1>GG's Pet Shop</h1>
+      <p>Luxury Pet ID Solutions That Keep Your Pets Safe</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="product">
+      <img src="image1.jpg" alt="Smart QR Pet Tag" />
+      <h2>Smart QR Pet Tag</h2>
+      <p class="price">$19.99</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick" />
+        <input type="hidden" name="business" value="info@ggspetstore.com" />
+        <input type="hidden" name="item_name" value="Smart QR Pet Tag" />
+        <input type="hidden" name="amount" value="19.99" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <button type="submit">Buy Now</button>
+      </form>
+    </section>
+
+    <section class="product">
+      <img src="image2.jpg" alt="Pet ID Card Bundle" />
+      <h2>Pet ID Card Bundle</h2>
+      <p class="price">$9.99</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick" />
+        <input type="hidden" name="business" value="info@ggspetstore.com" />
+        <input type="hidden" name="item_name" value="Pet ID Card Bundle" />
+        <input type="hidden" name="amount" value="9.99" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <button type="submit">Buy Now</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 GG's Pet Shop • Luxury Pet Tags</p>
+  </footer>
+</body>
+</html>
